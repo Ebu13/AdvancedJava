@@ -9,6 +9,7 @@ Bir geliştirici jshell kullanarak basit ifadeleri, değişken tanımlamaların�
 Örnek bir uygulama
 
 |  Welcome to JShell -- Version 21.0.2
+
 |  For an introduction type: /help intro
 
 jshell> int a=5,b=6; int c=a+b;
