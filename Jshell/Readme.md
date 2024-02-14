@@ -23,3 +23,13 @@ c ==> 11
 jshell> System.out.println(c+3)
 
 14
+
+### Aynı klasörde bulunan diğer dosyalar hakkında ufak açıklamalar
+
+- javac.exe: javac, Java programlama dilinde yazılmış kaynak kodlarını derlemek için kullanılan bir araçtır. Java kaynak kodları .java uzantılı dosyalarda bulunur. javac, bu kaynak kodlarını derleyerek platform bağımsız Java byte koduna dönüştürür. Bu byte kodları daha sonra Java Sanal Makinesi (JVM) tarafından yürütülür.
+
+- javaw.exe: javaw, Java uygulamalarını başlatmak için kullanılan bir araçtır, ancak farkı, bir konsol penceresi açmaz. Bu nedenle, genellikle grafiksel kullanıcı arayüzü (GUI) olan uygulamalar için tercih edilir. Konsol penceresi olmadığı için, kullanıcıya herhangi bir çıktı gösterilmez.
+
+- java.exe: java, derlenmiş Java byte kodunu çalıştırmak için kullanılan bir araçtır. Bu byte kodları, platform bağımsızdır ve herhangi bir JVM üzerinde çalışabilir. java komutu genellikle main metodunu içeren bir sınıf adı ile birlikte kullanılır ve bu sınıf başlangıç noktası olarak işlev görür.
+
+Bu dosyalar, Java'nın geliştirme ve çalıştırma süreçlerinde farklı roller üstlenirler. javac kaynak kodlarını derler, java derlenmiş kodları çalıştırır, javaw GUI uygulamalarını başlatırken konsol penceresi olmadan, jshell ise etkileşimli bir shell(kabuk) ortamı sağlar.
