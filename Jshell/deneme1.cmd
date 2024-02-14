@@ -94,3 +94,7 @@ jshell> yazdir(liste);
 jshell> ortal(liste);
 $14 ==> 21.0
 |  created scratch variable $14 : double
+
+
+
+- Bu küçük bir örnekti.Ve bu örnekte jshell i denedim.
