@@ -1,0 +1,65 @@
+Başlangıç Seviyesi:
+Java Temelleri:
+
+JDK (Java Development Kit) nedir ve nasıl kurulur?
+Temel Java sözdizimi: değişkenler, veri tipleri, operatörler, döngüler, koşullar.
+Temel veri yapıları: diziler, stringler.
+Temel nesne yönelimli programlama (OOP) kavramları: sınıflar, nesneler, miras alma, çok biçimlilik, kapsülleme.
+Java Geliştirme Ortamları (IDE'ler):
+
+Eclipse, IntelliJ IDEA, NetBeans gibi popüler IDE'lerin kurulumu ve kullanımı.
+Java Standard API'leri:
+
+java.lang, java.util, java.io gibi temel Java API'lerini kullanarak program geliştirme.
+String, StringBuilder/StringBuffer, List, Set, Map gibi temel veri yapıları ve API'leri kullanma.
+Temel Uygulama Geliştirme:
+
+Konsol tabanlı uygulamaların geliştirilmesi.
+Temel algoritmaların ve veri yapılarının uygulanması.
+Orta Seviye:
+Nesne Yönelimli Programlama (OOP):
+
+OOP prensipleri: kapsülleme, miras alma, çok biçimlilik, soyutlama.
+Tasarım desenleri: Singleton, Factory, Observer, Strategy gibi popüler tasarım desenlerini öğrenme ve uygulama.
+Dosya İşlemleri ve İstisnalar (Exceptions):
+
+Dosya okuma/yazma işlemleri.
+İstisna işleme (try-catch-finally blokları kullanımı).
+GUI Programlama:
+
+Swing veya JavaFX gibi GUI kütüphanelerini kullanarak grafik arayüz uygulamaları geliştirme.
+İleri Seviye:
+Veritabanı Programlama:
+
+JDBC (Java Database Connectivity) kullanarak veritabanı bağlantısı kurma ve veri tabanı işlemleri yapma.
+SQL sorguları yazma ve veritabanı işlemleri gerçekleştirme.
+Ağ Programlama:
+
+Socket programlama ve ağ iletişimi konusunu öğrenme.
+HTTP protokolü ve RESTful servisler hakkında bilgi edinme.
+İleri Java Konuları:
+
+Java 8 ve sonrası sürümlerdeki yeni özellikler: lambda ifadeleri, Stream API, DateTime API.
+Multithreading ve eşzamanlı programlama.
+Java EE (Enterprise Edition) veya Spring Framework gibi web uygulama geliştirme teknolojilerini öğrenme.
+Performans optimizasyonu ve hata ayıklama tekniklerini öğrenme.
+Uygulama Geliştirme ve Proje Deneyimi:
+
+Gerçek dünya projelerinde deneyim kazanmak için uygulama geliştirme sürecine katılma 
+veya kendi projelerinizi başlatma.
+Kodlama standartlarına uygun yazılım geliştirme becerilerini geliştirme.
+Sertifikasyon ve Sürekli Öğrenme:
+Sertifikasyon Alma:
+
+Oracle Java sertifikaları (OCJP - Oracle Certified Java Programmer) gibi sertifikasyonları hedefleme.
+Sürekli Öğrenme:
+
+Java ekosistemindeki değişiklikleri ve güncellemeleri takip etme.
+Bloglar, kitaplar, online kurslar, konferanslar ve topluluk etkinlikleri aracılığıyla sürekli öğrenme 
+ve kendinizi geliştirme.
+Java dilinde uzmanlaşmak zaman alabilir ve sabır gerektirir. Yukarıdaki adımları takip ederek, 
+temel bilgilerden başlayarak ileri seviyeye kadar Java'da uzmanlaşabilirsiniz.
+
+
+
+
