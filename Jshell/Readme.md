@@ -14,8 +14,11 @@ Bir geliştirici jshell kullanarak basit ifadeleri, değişken tanımlamaların�
 jshell> int a=5,b=6; int c=a+b;
 
 a ==> 5
+
 b ==> 6
+
 c ==> 11
 
 jshell> System.out.println(c+3)
+
 14
