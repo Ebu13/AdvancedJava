@@ -2,11 +2,15 @@ Java Standard API'leri:
 
 java.lang, java.util, java.io gibi temel Java API'lerini kullanarak program geliştirme.
 String, StringBuilder/StringBuffer, List, Set, Map gibi temel veri yapıları ve API'leri kullanma.
-ObjectOutputStream ve ObjectInputStream Stream API ler ile serileştirme ve ObjectInputFilter setSerialFilterFactory serialFilterFactory
+ObjectOutputStream ve ObjectInputStream gibi tüm Stream API ler ile serileştirme ve ObjectInputFilter setSerialFilterFactory serialFilterFactory
 Java Uzaktan Yöntem Çağırma (RMI) Kayıt Defteri, RMI Dağıtılmış Çöp Toplayıcısı ve Java Yönetim Uzantıları'nın (JMX)
 Temel Uygulama Geliştirme:
-Set List ArrayList Map LinkedHashMap
-Threads Optional Preferences JAVA Logging   JAVA Control Flow
+Set List ArrayList Map LinkedHashMap Queue SortedSet SortedMap
+Threads and Concurrency
+Optional Preferences JAVA Logging   JAVA Control Flow  JAVA NIO(new I/O)
+JAVA networking
+RandomGeneratorFactory ve RandomGenerator
+Foreign Function and Memory API
 Konsol tabanlı uygulamaların geliştirilmesi.
 Temel algoritmaların ve veri yapılarının uygulanması.
 Orta Seviye:
