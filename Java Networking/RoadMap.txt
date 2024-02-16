@@ -9,3 +9,5 @@ HTTP protokolü ve RESTful servisler hakkında bilgi edinme.
 
 
 Java EE (Enterprise Edition) veya Spring Framework gibi web uygulama geliştirme teknolojilerini öğrenme.
+
+İnternet Protokolleri ve Web Mimarisi
