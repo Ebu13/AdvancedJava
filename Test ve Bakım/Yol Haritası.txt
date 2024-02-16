@@ -1,0 +1,36 @@
+8. **Test Edilebilirlik ve Bakım Kolaylığı**
+
+Nesne yönelimli programlamada, test edilebilirlik ve bakım kolaylığı, 
+yazdığınız kodun kalitesini ve sürdürülebilirliğini artıran önemli unsurlardır. 
+Bu konuda bilmeniz gereken bazı kavramlar şunlardır:
+
+**Test Edilebilirlik:**
+1. **Birim Testleri (Unit Tests):** 
+	Kodunuzun küçük birimlerini (metodlar, sınıflar) ayrı ayrı test etmek için yazılan otomatik testlerdir. 
+	JUnit gibi çeşitli test çerçeveleri Java'da birim testlerini yazmayı kolaylaştırır.
+2. **Bağımlılıkların Enjekte Edilmesi (Dependency Injection):** 
+	Bağımlılıklarınızı kod içine doğrudan bağlamak yerine dışarıdan enjekte etmek, 
+	kodunuzu daha test edilebilir hale getirir. 
+	Bu genellikle bir DI (Dependency Injection) çerçevesi kullanılarak yapılır (örneğin, Spring Framework).
+3. **Soyutlamaların Kullanımı (Abstraction):** 
+	Kodunuzdaki soyutlamalar, belirli bir mantığa veya işlevselliğe özgü olan kod bloklarını ayrı sınıflara taşıyarak,
+	bu parçaları kolayca test etmenizi sağlar.
+
+**Bakım Kolaylığı:**
+1. **Temiz Kod Prensipleri:** 
+	SOLID prensipleri gibi temiz kod prensiplerini uygulamak, kodunuzu daha bakımı kolay hale getirir. 
+	Bu prensipler, kodun açık, anlaşılır ve esnek olmasını sağlar.
+2. **Modülerlik:** 
+	Kodunuzu modüllere ayırmak ve her bir modülün belirli bir işlevselliği temsil etmesini sağlamak, 
+	kodu daha bakımı kolay hale getirir. 
+	Bir değişiklik yapıldığında, sadece ilgili modülü güncellemek yeterli olacaktır.
+3. **Dökümantasyon:** 
+	Kodunuzu açıklamak için anlaşılır yorumlar ve belgeler eklemek, kodunuzu bakımı kolay hale getirir.
+	İlerideki geliştiricilerin veya ekip üyelerinin kodunuzu daha iyi anlamasına yardımcı olur.
+4. **Versiyon Kontrolü (Version Control):** 
+	Kodunuzu bir versiyon kontrol sistemi kullanarak saklamak ve yönetmek, 
+	geçmiş değişiklikleri izlemeyi ve gerektiğinde geri dönüş yapmayı sağlar.
+
+Bu kavramlar, test edilebilirlik ve bakım kolaylığını artırmak için kullanılan yaygın tekniklerdir. 
+Bu prensipleri anlamak ve uygulamak, yazdığınız kodun kalitesini artırır ve 
+uzun vadede daha sürdürülebilir bir kod tabanına sahip olmanıza yardımcı olur.
