@@ -1,0 +1,3 @@
+
+String, StringBuilder/StringBuffer, List, Set, Map gibi temel veri yapıları ve API'leri kullanma.
+Set List ArrayList Map LinkedHashMap Queue SortedSet SortedMap

@@ -1,0 +1,2 @@
+
+Performans optimizasyonu ve hata ayıklama tekniklerini öğrenme.

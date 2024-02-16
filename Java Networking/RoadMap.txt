@@ -1,0 +1,11 @@
+
+
+JDBC (Java Database Connectivity) kullanarak veritabanı bağlantısı kurma ve veri tabanı işlemleri yapma.
+SQL sorguları yazma ve veritabanı işlemleri gerçekleştirme.
+Ağ Programlama:
+
+Socket programlama ve ağ iletişimi konusunu öğrenme.
+HTTP protokolü ve RESTful servisler hakkında bilgi edinme.
+
+
+Java EE (Enterprise Edition) veya Spring Framework gibi web uygulama geliştirme teknolojilerini öğrenme.

@@ -1,0 +1,1 @@
+ObjectOutputStream ve ObjectInputStream gibi tüm Stream API ler ile serileştirme
