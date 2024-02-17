@@ -1,1 +1,0 @@
-RandomGeneratorFactory ve RandomGenerator
