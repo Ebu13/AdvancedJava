@@ -1,9 +1,4 @@
 
-java.lang, java.util, java.io gibi temel Java API'lerini kullanarak program geliştirme.
-
-
-Java 8 ve sonrası sürümlerdeki yeni özellikler: lambda ifadeleri, Stream API, DateTime API.
-
 Foreign Function and Memory API
 
 Optional Preferences
