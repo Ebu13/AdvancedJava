@@ -1,2 +1,0 @@
-
-ArrayList Map LinkedHashMap SortedSet SortedMap gibi collection yardımcı classlar 

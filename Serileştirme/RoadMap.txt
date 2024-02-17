@@ -1,2 +1,0 @@
-
-ObjectInputFilter setSerialFilterFactory serialFilterFactory
