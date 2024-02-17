@@ -1,8 +1,0 @@
-
-Foreign Function and Memory API
-
-Optional Preferences
-
-Java Uzaktan Yöntem Çağırma (RMI) Kayıt Defteri
-
-RMI Dağıtılmış Çöp Toplayıcısı ve Java Yönetim Uzantıları'nın (JMX)
