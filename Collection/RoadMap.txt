@@ -1,5 +1,3 @@
-
-
-String, StringBuilder/StringBuffer, Set, List, Queue ve Map gibi temel veri yapıları ve API'leri kullanma.
-ArrayList Map LinkedHashMap SortedSet SortedMap
-collection yardımcı classlar 
+Set, List, Queue ve Map gibi temel veri yapıları ve API'leri kullanma.
+ArrayList Map LinkedHashMap SortedSet SortedMap gibi collection yardımcı classlar 
+String classes.
