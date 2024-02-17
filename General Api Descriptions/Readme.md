@@ -1,6 +1,6 @@
 # Temel Java API'leri
 
-Java da sıkça kullanılan temel API'ler aşağıda listelenmiştir.
+Java da sıkça kullanılan temel API'ler hakkına açıklamalar:
 
 ## java.lang
 
