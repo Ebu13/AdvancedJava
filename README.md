@@ -1,4 +1,4 @@
 # AdvancedJava
-İleri seviye java bilgileri ve bazı deneme amaçlı yazdığım projelerimi kapsar.
+İleri seviye java bilgilerini, deneme amaçlı ve hiçbir amaca hizmet etmeyen küçük projelerimi kapsar.
 Daha çok JAVA JDK Version 21.0.2 dokümantasyonu ve genel Java konu anlatımları üzerinden ilerliyorum.
-Gelişirken paylaşmak istediğim herşeyi içerir.
+Gelişirken paylaşmak istediğim herşeyi içerir. İleri seviye projeleri değil sadece denemeleri ve bilgileri içerir.
