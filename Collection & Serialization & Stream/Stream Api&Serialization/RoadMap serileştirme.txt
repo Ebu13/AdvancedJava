@@ -1,4 +1,0 @@
-
-ObjectInputFilter setSerialFilterFactory serialFilterFactory
-
-ObjectOutputStream ve ObjectInputStream gibi tüm Stream API ler ile serileştirme
