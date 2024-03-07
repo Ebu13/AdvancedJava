@@ -34,7 +34,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Nesneyi oluştur
-        Configuration config = new Configuration("John", 30);
+        Configuration config = new Configuration("Ebubekir", 20);
 
         // Nesneyi JSON dosyasına serileştirme
         try {
@@ -42,6 +42,10 @@ public class Main {
             mapper.writeValue(new File("config.json"), config);
             System.out.println("Nesne serileştirildi ve config.json dosyasına yazıldı.");
             // {"name":"John","age":30}  görünümünde bir config.json oluştu.
+            // import com.fasterxml.jackson.databind.ObjectMapper; sayesinde aşağıdaki gibi bir görünüme sahip değil
+            // Önceki denemelerdeki gibi yapsaydım aşağıdaki gibi bir görünümü olurdu.
+            //�� sr 
+            // Configuration"L,v�� I ageL namet Ljava/lang/String;xp   t Ebubekir
         } catch (IOException e) {
             e.printStackTrace();
         }
