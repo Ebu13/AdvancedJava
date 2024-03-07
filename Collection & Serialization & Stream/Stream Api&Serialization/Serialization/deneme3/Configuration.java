@@ -1,3 +1,6 @@
+// Main class ında import com.fasterxml.jackson.databind.ObjectMapper; olduğu için önceki denemelerdeki gibi
+// implements Serializable dememe gerek yok
+
 public class Configuration {
     private String name;
     private int age;
