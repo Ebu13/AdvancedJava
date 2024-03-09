@@ -20,4 +20,20 @@ public class Main {
             System.out.println(i.getAlan());
         }
     }
+    /*
+    Java dilinde native kelimesi, Java Sanal Makinesi (JVM) dışında, 
+    yani Java dili dışındaki bir yerde, genellikle C veya C++ gibi düşük seviyeli dillerde yazılmış bir fonksiyonu 
+    ifade eder. Bu fonksiyonlar "native method" olarak adlandırılır ve native anahtar kelimesiyle tanımlanırlar.
+
+    Örneğin,
+    private static native void registerNatives(); 
+    ifadesi, bu metodun Java dilinde tanımlı olmadığını, 
+    bunun yerine JVM'nin bulunduğu platformun doğrudan bellek adreslerine erişmek için 
+    C veya C++ gibi bir dilde yazılmış bir fonksiyon olduğunu belirtir.
+
+    Bir native metodu kullanarak, Java programcıları Java dilinin kapsamını aşabilir 
+    ve sistem kaynaklarına doğrudan erişim sağlayabilirler. 
+    Ancak, native metodların kullanımı genellikle Java kodunun taşınabilirliğini azaltır 
+    ve güvenlik sorunlarına yol açabilir, bu yüzden native metodların dikkatli bir şekilde kullanılması önerilir.
+     */
 }

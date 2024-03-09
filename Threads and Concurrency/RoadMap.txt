@@ -1,2 +1,33 @@
+Java'da eşzamanlılık (concurrency) kavramı oldukça geniş bir konudur 
+ve birçok farklı teknik, yapı ve kütüphane içerir. 
+İşte başlangıç seviyesinden ileri seviyeye kadar Java'da eşzamanlılıkla ilgili temel konular
 
-Multithreading ve eşzamanlı programlama.
+### Başlangıç Seviyesi:
+1. **Thread ve Runnable**: Java'da eşzamanlılık programlamasının temel yapı taşlarından biridir. 
+`Thread` sınıfı veya `Runnable` arayüzü kullanılarak iş parçacıkları oluşturulur ve bu iş parçacıkları JVM'de eşzamanlı olarak çalışır.
+2. **Thread Lifecycle**: Thread'lerin yaşam döngüsü, oluşturma, başlatma, uyku moduna alma, uyanma, durdurma ve sonlandırma gibi adımları içerir.
+3. **Synchronization**: Çoklu iş parçacıklarının paylaşılan kaynaklara erişimi kontrol etmek için kullanılır. 
+`synchronized` anahtar kelimesi ve `Lock` arayüzü bu amaçla kullanılır.
+4. **Concurrency Issues**: Race conditions, deadlock, livelock gibi eşzamanlılık sorunları ve bunları nasıl tespit edip çözeceğiniz hakkında bilgi edinmek önemlidir.
+
+### Orta Seviye:
+1. **Concurrency Utilities**: Java'da, eşzamanlılıkla ilgili birçok hazır sınıf ve araç bulunur. 
+`ExecutorService`, `ThreadPoolExecutor`, `Callable`, `Future`, `Semaphore` gibi sınıflar ve araçlar, eşzamanlılık kodunu daha kolay ve etkin hale getirir.
+2. **Concurrent Collections**: Java'nın `java.util.concurrent` paketi, eşzamanlılıkla çalışırken kullanılabilecek çeşitli koleksiyonlar sunar. 
+`ConcurrentHashMap`, `ConcurrentLinkedQueue` gibi koleksiyonlar, paylaşılan kaynaklara eşzamanlı erişimde güvenliği sağlar.
+3. **Atomic Variables**: `AtomicInteger`, `AtomicLong`, `AtomicReference` gibi sınıflar, 
+thread-safe (iş parçacıklarına karşı güvenli) değişkenler sağlar ve senkronizasyon gerektirmez.
+4. **Fork/Join Framework**: Java 7'den itibaren, paralel hesaplama yapmak için kullanılan bir framework'tür. 
+Büyük iş parçacıklarını küçük parçalara böler ve bunları farklı iş parçacıklarında eşzamanlı olarak çalıştırır.
+
+### İleri Seviye:
+1. **Asynchronous Programming**: Java'da `CompletableFuture`, `AsyncTask`, `CompletionStage` gibi asenkron programlama tekniklerini kullanarak 
+eşzamanlılık üzerinde daha karmaşık senaryoları uygulama.
+2. **Reactive Programming**: Java'da Reactive Extensions (RxJava, Reactor gibi), veri akışları üzerinde eşzamanlılık ve olay tabanlı programlama yapmak için kullanılır.
+3. **Actor Model**: Akka gibi kütüphaneleri kullanarak, aktör tabanlı eşzamanlılık sistemleri oluşturabilirsiniz.
+4. **Concurrency Patterns**: Producer-Consumer, Reader-Writer, Worker Thread, Thread Pool gibi yaygın eşzamanlılık desenlerini anlamak ve uygulamak önemlidir.
+
+Java'da eşzamanlılıkla ilgili olarak ilerledikçe, performans, güvenlik ve tasarım konularına daha fazla dikkat etmeniz gerekebilir. 
+Ayrıca, JVM'in eşzamanlılıkla ilgili kısıtlamalarını ve özelliklerini de incelemek önemlidir. 
+Bu konuları öğrenmek için Java'nın resmi dokümantasyonunu ve ilgili kitapları, makaleleri, dersleri takip edebilirsiniz. 
+Pratik yaparak ve deneyimleyerek eşzamanlılık konusundaki becerilerinizi geliştirebilirsiniz.
